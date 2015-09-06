@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.games.vekkna.meleeseater.MainActivity"
+    android:background="@drawable/wizardstower"
+    android:paddingBottom="0dp">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Add Player"
+        android:id="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="5dp"
+        android:background="#96000000"
+        android:textColor="#ffffffff"
+        android:typeface="serif"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Delete Player"
+        android:id="@+id/button4"
+        android:background="#96000000"
+        android:paddingBottom="0dp"
+        android:textColor="#ffffffff"
+
+        android:layout_marginBottom="5dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Assign Seats"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="#96000000"
+        android:paddingBottom="0dp"
+        android:textColor="#ffffffff"
+        android:typeface="serif"
+        android:textStyle="bold" />
+
+</RelativeLayout>
